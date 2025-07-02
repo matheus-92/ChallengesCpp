@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cstdio>
-#include "challenges/reciprocalCycles.h"
+#include "challenges/multiplierThreeOrFive.h"
 
 using namespace challenges;
 using namespace std;
@@ -9,9 +9,9 @@ using namespace std;
 
 int main()
 {
-     std::string result = challenges::reciprocalCycles();
+    int result = challenges::multipliers3or5(1000);
 
-    printf(result.c_str());
+    printf("%d\n",result);
 
     return 0;
 }
